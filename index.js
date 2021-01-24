@@ -7,7 +7,15 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-/* End Given Code, don't edit above here...*/
+let input;
+let parsed;
 
-/* Write your implementation of greet() */
-/* Write your implementation of displayMessage() */
+function greet(input) {
+  input.split(':')
+  parseint(input)
+  debugger;
+}
+
+function displayMessage() {
+
+}
